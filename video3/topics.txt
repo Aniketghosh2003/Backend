@@ -1,0 +1,8 @@
+
+1 // NPM understanding
+3 // npm - node package manager
+6 // installing and uninstalling anything basics & advanced
+7 // understanding node_modules
+8 // dependencies
+9 // devdependencies
+10 // scripts - understanding default scripts PATH and custom scripts
