@@ -1,0 +1,11 @@
+1 // Node.js Basics:
+2 // Introduction to Node.js.
+
+3 // Installing Node.js and npm.
+4 // Working with modules.
+
+5 // node & npm 
+
+Two modules are required that are file system and http module.
+6 // File system operations.
+7 // understanding HTTP modules
