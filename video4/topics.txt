@@ -4,7 +4,7 @@
 // Setting up a basic Express application.
 // Routing.
 
-// Middleware.
+// Middleware.->some get functions
 // Request and response handling.
 
 // Error handling.
