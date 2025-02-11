@@ -1,0 +1,38 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore build output
+dist/
+build/
+.cache/
+
+# Ignore dependency directories
+bower_components/
+
+# Ignore Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore package-lock.json or yarn.lock if using only one package manager
+# Uncomment if you want to ignore them
+# package-lock.json
+# yarn.lock
