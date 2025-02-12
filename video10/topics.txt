@@ -1,0 +1,33 @@
+
+**1 Data Storage:**-> where user can store data. 
+database is better option 
+A **database** is an organized collection of data that allows efficient storage, retrieval, and management. Types:  
+
+**2 TYPES OF DBS**
+1. **Relational (SQL)** – Structured tables (MySQL, PostgreSQL).  
+2. **NoSQL** – Flexible, document-based (MongoDB, Firebase).  
+3. **In-Memory** – Fast, temporary (Redis).  
+4. **Graph DB** – Stores relationships (Neo4j).  
+5. **Time-Series DB** – Optimized for time-stamped data (InfluxDB).
+NoSQL (Not Only SQL) is a type of database that handles unstructured or semi-structured data. It is scalable, flexible, and suited for big data applications.  
+Types of NoSQL databases:  
+1. **Document-based** – Stores JSON-like documents (MongoDB, Firebase).  
+2. **Key-Value** – Simple key-value pairs (Redis, DynamoDB).  
+3. **Column-Family** – Optimized for analytics (Cassandra, HBase).  
+4. **Graph-Based** – Stores relationships (Neo4j, ArangoDB).
+
+**3 what and why**
+Choosing **MongoDB** for:  
+1. **Flexibility** – Stores JSON-like documents, no fixed schema.  
+2. **Scalability** – Horizontally scalable with sharding.  
+3. **Speed** – Fast reads/writes for large datasets.  
+4. **Replication** – High availability with replica sets.  
+5. **Easy Integration** – Works well with JavaScript & Node.js.  
+6. **Rich Queries** – Supports indexing, aggregation, and geospatial queries.
+
+**4 terminologies - collections, documents, schemas, keys, models**
+1. **Collections** – Groups of documents in MongoDB (like tables in SQL).  
+2. **Documents** – JSON-like data entries stored in collections.  
+3. **Schemas** – Defines structure/rules for documents (used in Mongoose for validation).  
+4. **Keys** – Unique identifiers in documents (e.g., `_id` in MongoDB).  
+5. **Models** – Mongoose objects that interact with collections based on schemas.
