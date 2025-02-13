@@ -26,10 +26,11 @@ app.get("/read", async (req, res) => {
   res.send(users);
 });
 
-app.get("/read", async (req, res) => {
-  let users = await userModel.findOne("johnde");
-  res.send(users);
+app.get("/readOne", async (req, res) => {
+  let user = await userModel.findOne({ username: "johndoe" });
+  res.send(user);
 });
+
 
 app.get("/delete", async (req, res) => {
   let users = await userModel.findOneAndDelete({ username: "johndoe" });
