@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- ...existing code... -->
+    <div class="w-full h-full text-black flex gap-10 flex-col flex-wrap">
+      <h1>ALL USERS</h1>
+      <% users.forEach(function(user) { %>
+      <div class="flex gap-10 flex-col flex-wrap bg-gray-300">
+        <h3><%= user.name %></h3>
+        <h3><%= user.email %></h3>
+        <div class="flex gap-10">
+          <a class="text-gray-600" href="/edit/<%= user._id %>">edit user</a>
+          <a class="text-red-600" href="/delete/<%= user._id %>">delete user</a>
+        </div>
+      </div>
+      <% }); %>
+    </div>
+    <!-- ...existing code... -->
+  </body>
+</html>
