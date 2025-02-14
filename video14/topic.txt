@@ -1,0 +1,10 @@
+authentication and authorization
+**Authentication** verifies who a user is (e.g., login with username & password).  
+**Authorization** determines what a user can access (e.g., admin vs. regular user permissions).  
+
+Authentication happens first, then authorization.
+
+steps->
+i> how to set cookies
+ii> bcrypt how to use this for password encription and decription
+iii> how jwt used for datastorage 
