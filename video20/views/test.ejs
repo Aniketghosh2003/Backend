@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="w-full h-screen bg-zinc-900 p-10 text-white">
+      <form method="post" action="/upload" enctype="multipart/form-data">
+        <input
+          type="file"
+          name="image"
+          class="px-5 py-2 bg-transparent rounded-lg border-2 border-stone-50 text-white ml-2"
+        />
+        <input
+          type="submit"
+          value="Upload Image"
+          class="px-4 py-2 bg-blue-700 rounded-lg text-white ml-2"
+        />
+      </form>
+    </div>
+  </body>
+</html>
