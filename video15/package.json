@@ -1,7 +1,6 @@
 {
   "name": "video15",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "npx nodemon app.js"
@@ -17,5 +16,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.10.1",
     "nodemon": "^3.1.9"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
