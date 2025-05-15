@@ -1,8 +1,10 @@
 function Home() {
   return (
-    <div className="container mt-5">
-      <h1>Home Page</h1>
-    </div>
+    <>
+      <div className="flex justify-center items-center bg-gray-300">
+        <h1>Home Page</h1>
+      </div>
+    </>
   );
 }
 
